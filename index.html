@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>aytegin resume  - Profile HTML Page</title>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="author" content="Tooplate">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/all.min.css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css">
+     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="css/tooplate-ben-resume-style.css">
+<!--
+Tooplate 2120 Ben Resume
+https://www.tooplate.com/view/2120-ben-resume
+-->
+</head>
+
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                Aytegin Resume
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a href="#intro" class="nav-link smoothScroll">Introduction</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link smoothScroll">About Me</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#testimonials" class="nav-link smoothScroll">Reviews</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link smoothScroll">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="mt-lg-0 mt-3 mb-4 mb-lg-0">
+                    <a href="#" class="custom-btn btn" download>Download CV</a>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+    <section class="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+
+         <div class="container">
+            <div class="row">
+
+                  <div class="mx-auto col-lg-5 col-md-5 col-10">
+                      <img src="data:image/jpeg;base64,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" class="img-fluid" alt="aytegin Resume Resume HTML Template">
+                  </div>
+
+                   <div class="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                        <div class="hero-text">
+
+                            <h1 class="hero-title">👋 Aytegin ,PERSONAL WEB-SITE</h1>
+
+                            <a href="#" class="email-link">
+                                aytoshmuratov@gmail.com
+                            </a>
+                          
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <h3 class="mb-4">Autobeography</h3>
+
+                    <p>Aytegin Resume HTML Template is brought to you by <a rel="nofollow" href="" target="_parent">Personal website</a>. You can feel free to edit and use this page for your small site. You are allowed to use this HTML template for any kind of purpose.</p>
+
+                    <p>However, please do not re-distribute the downloadable template ZIP file on any template collection website. This is strongly prohibited. Please contact Tooplate for more information.</p>
+
+                    <ul class="mt-4 mb-5 mb-lg-0 profile-list list-unstyled">
+                        <li><strong>Full Name :</strong> aytegin muratov </li>
+
+                        <li><strong>Date of Birth:</strong> 20 october 2004</li>
+
+                        <li><strong>Website :</strong> company.co</li>
+
+                        <li><strong>Email :</strong> aytosh resume </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-5 mx-auto col-md-6 col-12">
+                    <img src="images/true-agency.jpg" class="about-image img-fluid" alt="aytegin Resume HTML Template">
+                </div> 
+
+            </div>
+            <div class="row about-third">
+            	<div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer volutpat</h3>
+                <p>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Mauris semper</h3>
+                <p>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                <h3>Integer id neque</h3>
+                <p>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIAL -->
+     <section class="testimonials section-padding" id="testimonials">
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-12">
+                        <h3 class="mb-5 text-center">What People say</h3>
+
+                        <div class="owl-carousel owl-theme" id="testimonials-carousel">
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image01.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Ben</h6>
+                                        <span>Art Director</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image02.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Marie</h6>
+                                        <span>Marketing Consultant</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image03.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Jen</h6>
+                                        <span>Product Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="testimonials-thumb d-flex">
+                                    <div class="testimonials-image">
+                                        <img src="images/testimonials/testimonial-image04.jpg" class="img-fluid" alt="testimonials image">
+                                    </div>
+
+                                    <div class="testimonials-info">
+                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                        <h6 class="mb-0">Wilson</h6>
+                                        <span>Web Developer</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+
+     <!-- FAQ -->
+     <section class="faq section-padding">
+        
+        <div class="container">
+            
+            <div class="row">
+
+                <div class="col-lg-12 col-12">
+
+                    <h3 class="mb-5">Frequently Asked Questions</h3>
+
+                    <div class="accordion" id="accordionExample">
+                      <div class="card">
+                        <div class="card-header" id="headingOne">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                              Are those HTML templates absolutely free for any kind of usage?
+                            </button>
+                          </h2>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, they are 100% free and there is no hidden charge.</p>
+
+                            <p>They can be used for your commercial websites.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingTwo">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                              Can I use them as a CMS theme or a part of website builder?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, you can use them.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="card">
+                        <div class="card-header" id="headingThree">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                              I cannot find a suitable HTML template. Can I request new template?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Yes, please tell us what you need. We will try our best to fulfill it.</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFour">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                              Can I redistribute your templates?
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>No, this is totally NOT allowed. Please do not redistribute our HTML templates.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                          <h2 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                              
+                            </button>
+                          </h2>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                          <div class="card-body">
+                            <p>Please spread a word about Tooplate website to your colleagues and friends.</p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <span class="faq-info-text">Please send us a message if you have anything to say. Send an email message to <strong>contact (at) tooplate (dot) com</strong></span>
+
+                </div>
+
+           	 </div><!-- col -->
+        	</div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+
+     <section class="contact section-padding pt-0" id="contact">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-6 col-md-6 col-12">
+            <form action="#" method="get" class="contact-form webform"  role="form">
+                
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="text" class="form-control" name="cf-name" id="cf-name" placeholder="Your Name">
+
+                    <label for="cf-name" class="webform-label">Full Name</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <input type="email" class="form-control" name="cf-email" id="cf-email" placeholder="Your Email">
+
+                    <label for="cf-email" class="webform-label">Your Email</label>
+                </div>
+
+                <div class="form-group d-flex flex-column-reverse">
+                    <textarea class="form-control" rows="5" name="cf-message" id="cf-message" placeholder="Your Message"></textarea>
+
+                    <label for="cf-message" class="webform-label">Message</label>
+                </div>
+
+                <button type="submit" class="form-control" id="submit-button" name="submit">Send</button>
+            </form>
+          </div>
+
+            <div class="mx-auto col-lg-4 col-md-6 col-12">
+                <h3 class="my-4 pt-4 pt-lg-0">Say hello</h3>
+
+                <p class="mb-1">010-020-0340</p>
+
+                <p>
+                    <a href="#">
+                        ayteamcompany@gmail.com
+                    <i class="fas fa-arrow-right custom-icon"></i>
+                    </a>
+                </p>
+
+                <ul class="social-links mt-2">
+                    <li><a href="#" rel="noopener" class="fab fa-facebook"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-twitter"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-instagram"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-linkedin"></a></li>
+                    <li><a href="#" rel="noopener" class="fab fa-youtube"></a></li>
+                </ul>
+                
+              <p class="copyright-text mt-5 pt-3">Copyright &copy; 2020 Ben Resume Page</p>
+                
+                <p>Design: <a href="https://www.tooplate.com" title="free HTML templates" target="_blank">Tooplate</a></p>
+            </div>
+
+        </div>
+      </div>
+    </section>
+     <!-- SCRIPTS -->
+     <script src="js/jquery.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <script src="js/smoothscroll.js"></script>
+     <script src="js/owl.carousel.min.js"></script>
+     <script src="js/custom.js"></script>
+
+</body>
+</html>
